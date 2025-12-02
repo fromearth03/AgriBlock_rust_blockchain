@@ -14,8 +14,6 @@ Instead of cryptocurrency balances, AgriBlock stores **immutable data events** s
 * **Data-Centric Design:** Replaces financial "Account Balance" checks with **Data Validation** logic.
 * **Flexible Payloads:** Supports JSON-based data storage (Crop type, Humidity, Temperature, Quality Grade).
 * **Validator Node:** The mining node acts as a system validator, stamping every block with a cryptographic proof of validation.
-* **Cross-Language Architecture:** The core node runs in **Rust**, while edge clients interact via TCP Sockets using **C++**.
-
 ---
 
 ## 🛠️ Installation & Setup
